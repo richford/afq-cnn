@@ -2,6 +2,9 @@
 __pycache__/
 *.py[cod]
 
+# ignore cam-can raw data
+data/raw/cam-can/*
+
 # C and Fortran extensions
 *.so
 *.dylib
