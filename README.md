@@ -34,3 +34,13 @@ make data
 ```
 
 The other datasets require data usage agreements and so cannot be shared via this repository.
+
+
+## Set up precommit hook to remove notebook outputs
+
+
+This is important both to simplify our commits and to make sure that we don't
+commit information that should not be committed
+
+    pip install pre-commit
+    pre-commit install
