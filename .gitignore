@@ -137,3 +137,5 @@ bin/
 # Ignore dask-worker-space
 **dask-worker-space**
 **Untitled.ipynb
+
+notebooks/untitled_project/*
